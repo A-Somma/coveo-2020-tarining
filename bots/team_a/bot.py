@@ -1,10 +1,10 @@
-import hlt
-from hlt import NORTH, EAST, SOUTH, WEST, STILL, Move, Square
+import src.hlt as hlt
+from src.hlt import NORTH, EAST, SOUTH, WEST, STILL, Move, Square
 import random
 
 
 myID, game_map = hlt.get_init()
-hlt.send_init("RandomPythonBot")
+hlt.send_init("Team A")
 
 while True:
     game_map.get_frame()
