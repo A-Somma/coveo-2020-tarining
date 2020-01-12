@@ -3,6 +3,8 @@
 # Created by https://www.gitignore.io/api/python,eclipse,jetbrains
 # Edit at https://www.gitignore.io/?templates=python,eclipse,jetbrains
 
+halite
+
 ### Eclipse ###
 .metadata
 bin/
