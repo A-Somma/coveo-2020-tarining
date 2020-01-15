@@ -1,0 +1,18 @@
+ --- Init ---
+Traceback (most recent call last):
+ --- Bot used 129 milliseconds ---
+-----------------------------------------------------------------------------
+ --- Frame #1 ---
+  File "../bot.py", line 2, in <module>
+ --- Bot used 0 milliseconds ---
+ERRORED!
+Response received (if any):
+  File "../bot.py", line 2, in <module>
+ --- Bot was killed. Below is the rest of its output (if any): ---
+    from src.strategy import Strategy
+  File "/home/toothless/Desktop/coveo_training/bots/practice_bot/level_4/src/strategy.py", line 23
+    closest_foreign_square = min(foreign_squares lambda fs: self.game_map.get_distance(fs, square))
+                                                      ^
+SyntaxError: invalid syntax
+
+ --- End bot output ---
